@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .cercle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px dashed transparent;
+    border-top-color: #ffd321;
+    border-right-color: #E66000;
+    border-bottom-color: #8263f1;
+    border-left-color: #6e0866;
+    animation: rotation 5s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
